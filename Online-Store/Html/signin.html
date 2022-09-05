@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Sign Up</title>
+      <link href="../css/sign.css"  rel="stylesheet">
+      <script src="../js/signup.js"></script>
+    </head>
+    <body>
+        <!-- <p id="p3">Login to Your Account , or Sign In..</p> -->
+        <div id="container">
+            <h1>Sign Up..</h1>
+            <form id="form" action="#"
+            method="post" onsubmit="return validateform()" >
+                <label><b>User Name:</b></label><br>
+                <input id="username" type="text" placeholder="Enter User Name..">
+                <span id="unerror"></span><br><br><br>
+
+                <label><b>Email:</b></label><br>
+                <input id="email" type="text" placeholder="Enter youe Email..">
+                <span id="emailerror"></span><br><br><br>
+
+                <label><b>Password:</b></label><br>
+                <input id="password" type="password" placeholder="Password..">
+                <span id="pserror"></span><br><br><br>
+
+                <label><b>Phone Number:</b></label><br>
+                <input id="phone" type="text" placeholder="Enter User Phone Number..">
+                <span id="phoneerror"></span><br><br><br>
+                
+                <input id="log" type="submit"
+                value="Sign up">
+
+            </form>
+            
+        </div>
+    </body>
+</html>

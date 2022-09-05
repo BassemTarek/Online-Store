@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Log In</title>
+        <link href="../css/log.css" rel="stylesheet">
+         <script src="../js/login.js"></script>
+  </head>
+
+    <body>
+
+        <p id="p2">Welcome to Online Shop..</p>
+        <!-- <p id="p3">Login to Your Account , or Sign In..</p> -->
+        <div id="container">
+            <h1>Login..</h1>
+            <form id="form" action="#"
+            method="post" onsubmit="return login()">
+                <label><b>User Name:</b></label><br>
+                <input id="username" type="text" placeholder="Enter User Name">
+                <span id="unerror"></span><br><br><br>
+                <label><b>Password:</b></label><br>
+                <input id="password" type="password" placeholder="Password">
+                <span id="pserror"></span><br><br><br>
+                <input id="log" type="submit"
+                value="Login">
+
+            </form>
+            <p id="p1">Has No Account? <a href="signin.html"> Sign In</a></p>
+        </div>
+
+    </body>
+</html>
